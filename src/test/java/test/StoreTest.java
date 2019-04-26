@@ -20,13 +20,13 @@ import pageObjects.UserAccountPageObjects;
 
 public class StoreTest extends SeleniumTestStart {
 
-	public static HomePageObjects homePage = new HomePageObjects(driver);
-	public static ShoppingCartPageObjects shoppingCart = new ShoppingCartPageObjects(driver);
-	public static AuthenticationPageObjects authenticationPage = new AuthenticationPageObjects(driver);
-	public static UserAccountPageObjects userAccountPage = new UserAccountPageObjects(driver);
-	public static AddressPageObject addressPage = new AddressPageObject(driver);
-	public static ShippingPageObjects shippingPage = new ShippingPageObjects(driver);
-	public static PaymentPageObjects paymentPage = new PaymentPageObjects(driver);
+	private static HomePageObjects homePage = new HomePageObjects(driver);
+	private static ShoppingCartPageObjects shoppingCart = new ShoppingCartPageObjects(driver);
+	private static AuthenticationPageObjects authenticationPage = new AuthenticationPageObjects(driver);
+	private static UserAccountPageObjects userAccountPage = new UserAccountPageObjects(driver);
+	private static AddressPageObject addressPage = new AddressPageObject(driver);
+	private static ShippingPageObjects shippingPage = new ShippingPageObjects(driver);
+	private static PaymentPageObjects paymentPage = new PaymentPageObjects(driver);
 
 	private static final String CUSTOMER_FIRST_NAME = "Marco";
 	private static final String CUSTOMER_LAST_NAME = "Coradini";
