@@ -1,0 +1,10 @@
+pageObjects\AddressPageObject.class
+pageObjects\PaymentPageObjects.class
+pageObjects\HomePageObjects.class
+test\SeleniumTestStart.class
+pageObjects\ShoppingCartPageObjects.class
+test\StoreTest.class
+pageObjects\PageObjects.class
+pageObjects\AuthenticationPageObjects.class
+pageObjects\ShippingPageObjects.class
+pageObjects\UserAccountPageObjects.class
