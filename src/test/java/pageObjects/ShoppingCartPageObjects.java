@@ -32,8 +32,8 @@ public class ShoppingCartPageObjects extends PageObjects {
 	}
 
 	public WebElement getProceedToCheckoutButton() {
-			return proceedToCheckoutButton;
-		}
+		return proceedToCheckoutButton;
+	}
 
 	public WebElement getProductQuantity() {
 		return productQuantity;

@@ -133,6 +133,7 @@ public class StoreTest extends SeleniumTestStart {
 		assertEquals(paymentPage.getOrderCompleteInfo().getText(), ORDER_COMPLETED);
 		SeleniumActions.click(paymentPage.getBackToOrdersButton()).perform();
 	}
+
 	/*
 	 * Método para gerar um endereço de email aleatório.
 	 */
